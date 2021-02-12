@@ -1,0 +1,85 @@
+
+.site-structure {
+    max-width: 1440px;
+    min-height: 900px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Amplitude Aubi", Sans-serif;
+}
+.form-base-layer {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    min-height: 600px;
+    background-color:#EFEFEF;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+    padding: 65px;
+    border-radius: 8px;
+}
+.logo {
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.logo-img {
+    display: flex;
+    max-width: 20em;
+}
+.form-input-fields {
+    display:flex;
+    flex-direction: column;   
+}
+.heading-text {
+    color: #222222;
+}
+.label {
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    border-radius: 5px 5px 0px 0px;
+    padding:5px 0px 0px 10px; 
+    min-height: 20px;
+    font-size: small;
+}
+.input-field {
+    min-height: 30px;
+    border:none;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.input-field:focus {
+    outline-width: 1px;
+    outline-color:#818a91;
+}
+.select {
+    padding-left: 17px;
+    cursor: pointer;
+}
+.button {
+    min-height: 40px;
+    width: 100%;
+    background-color: #F15E24;
+    border:none;
+    border-radius: 5px 5px 5px 5px;
+    font-family: "Amplitude Aubi", Sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #bd4515;
+}
+.button:focus {
+    background-color: #7dba00;
+    outline:none;
+}
+

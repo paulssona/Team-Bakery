@@ -1,0 +1,25 @@
+<div class="site-structure"> 
+    <div class="form-base-layer">
+        <div class="logo"><img class="logo-img" src="images/Safeture-logo-web-medium.png" alt="logo"></div>
+        <form action="https://safeture.com" method="post" class="form-input-fields">
+            <h2 class="heading-text">Contact Safeture</h2>
+            <label class="label" for="fname">First name</label>
+            <input class="input-field" type="fname" placeholder="" id="fname" name="fname">
+            <label class="label" for="lname">Surname</label>
+            <input class="input-field" type="lname" id="lname" name="lname">
+            <label class="label" for="email" >Email</label>
+            <input class="input-field" type="email" id="email" placeholder="name@enterprise.com" required>
+            <label class="label" for="select">Area of interest</label>
+            <select class="select input-field" name="solution" id="select">
+                <option value="feature" selected>New Feature</option>
+                <option value="software">Software solution</option>
+                <option value="everything">Everything</option>
+            </select>
+            <label class="label" for="password">Password</label>
+            <input class="input-field" type="password" placeholder="8 char. min." minlength="8" id="password" required>
+            <input class="input-field" type="password" placeholder="Confirm Password" id="confirm_password" required>
+            <button class= "button" type="submit" formtarget="">Submit</button>
+        </form>    
+    </div>
+</div>
+<script src="validation.js"></script>
