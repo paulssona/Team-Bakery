@@ -30,7 +30,6 @@
     background-color: #A9D378;
     border: 6px solid #D5B027;
 }
-
 .input-name-mail {
     display:flex;
     margin-right: 70px;
@@ -73,7 +72,7 @@
     font-size: 24px;
     line-height: 26px;
     letter-spacing: 0.04em;
-    color: #D5B027;
+    color: #443836;
     padding-left:15px;
 }
 .btn {
