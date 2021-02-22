@@ -14,7 +14,13 @@
     width: 100%;
 }
 .footer-header {
-    color: #222222;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #443836;
 }
 .form-structure {
     display:block;
@@ -31,6 +37,7 @@
     flex-wrap: wrap;
 }
 .input-field {
+    border:none;
     list-style: none;
     min-height: 60px;
     margin-left: 31px;
@@ -40,22 +47,34 @@
 .input-message-container {
     display:flex;
     margin-right: 70px;
-    margin-top: 41px ;
+    margin-top: 41px;
+}
+::placeholder {
+    color:#D5B027;
 }
 .input-field-message {
+    border:none;
     list-style: none;
     min-height: 164px;
     margin-left:31px;
     margin-bottom: 38px;
     flex-grow: 1;
+    padding-top:20px;
 }
 .input-field:focus {
     outline-width: 1px;
-    outline-color:#818a91;
+    outline-color: #443836;
 }
-.select {
-    padding-left: 17px;
-    cursor: pointer;
+.font-input { 
+    text-decoration: none;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #D5B027;
+    padding-left:15px;
 }
 .btn {
     min-height: 40px;

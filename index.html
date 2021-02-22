@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reko Bakery</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="styles/normalize.css" />
         <link rel="stylesheet" href="styles/styles.css">
         <link rel="stylesheet" href="styles/index.css">
@@ -17,13 +18,13 @@
             <div class="form-structure"> 
                 <form action="submit" method="post">
                     <div class="input-name-mail">
-                        <input class="input-field" input type="fname" placeholder="Namn" id="fname" name="fname">
-                        <input class="input-field" input type="email" id="email" placeholder="Email" required>
+                        <input class="input-field font-input" input type="fname" placeholder="Namn" id="fname" name="fname">
+                        <input class="input-field font-input" input type="email" id="email" placeholder="Email" required>
                     </div>
                     <div class="input-message-container">
-                        <input class="input-field-message" type="text" placeholder="Meddelande">
+                        <textarea class="input-field-message font-input" name="meddelande" id="meddelande" placeholder="Meddelande" cols="30" rows="5"></textarea>
                     </div>
-                    <button class= "btn" type="submit" formtarget="">Submit</button>
+                    <button class= "btn font-input" type="submit" formtarget="">Submit</button>
                 </form>    
             </div>
         </footer>
