@@ -3,14 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Productly</title>
+        <title>Reko Bakery</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="styles/normalize.css" />
         <link rel="stylesheet" href="styles/styles.css">
-        <link rel="stylesheet" href="styles/landing.css">
+        <link rel="stylesheet" href="styles/index.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
     </head>
-    <body> 
+    <body class="site-structure"> 
+        <footer class="form-container">
+            <div class="footer-header"><h2 class="heading-text">Kontakta Oss</h2></div>   
+            <div class="form-structure"> 
+                <form action="submit" method="post">
+                    <div class="input-name-mail">
+                        <input class="input-field" input type="fname" placeholder="Namn" id="fname" name="fname">
+                        <input class="input-field" input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-message-container">
+                        <input class="input-field-message" type="text" placeholder="Meddelande">
+                    </div>
+                    <button class= "btn" type="submit" formtarget="">Submit</button>
+                </form>    
+            </div>
+        </footer>
     </body>
 </html>    

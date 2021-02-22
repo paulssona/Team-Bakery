@@ -1,1 +1,77 @@
 /* This is the CSS-sheet covering the landing page specically */
+
+.site-structure {
+    width: 100%;
+}
+
+
+
+/*footer styles*/
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.footer-header {
+    color: #222222;
+}
+.form-structure {
+    display:block;
+    max-width: 790px;
+    width: 100%;
+    margin:0 20px;
+    background-color: #A9D378;
+    border: 6px solid #D5B027;
+}
+
+.input-name-mail {
+    display:flex;
+    margin-right: 70px;
+    flex-wrap: wrap;
+}
+.input-field {
+    list-style: none;
+    min-height: 60px;
+    margin-left: 31px;
+    margin-top: 33px;
+    flex-grow: 1;
+}
+.input-message-container {
+    display:flex;
+    margin-right: 70px;
+    margin-top: 41px ;
+}
+.input-field-message {
+    list-style: none;
+    min-height: 164px;
+    margin-left:31px;
+    margin-bottom: 38px;
+    flex-grow: 1;
+}
+.input-field:focus {
+    outline-width: 1px;
+    outline-color:#818a91;
+}
+.select {
+    padding-left: 17px;
+    cursor: pointer;
+}
+.btn {
+    min-height: 40px;
+    width: 33%;
+    background-color: #443836;
+    color: #f5f5f5;
+    border:none;
+    cursor: pointer;
+    margin-left: 31px;
+    margin-bottom: 38px;
+}
+.btn:hover {
+    background-color: #d5b027; 
+    
+}
+.btn:focus {
+    background-color: #67bd57;
+    outline:none;
+}
