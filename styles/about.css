@@ -1,1 +1,28 @@
 /* This is the CSS for the about page specifically */
+*{box-sizing: border-box;}
+*{font-family: 'Playfair Display', serif;}
+
+.header {
+
+}
+
+.topnav {
+    background-color: #443836;
+    color: #F5F5F5;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-top {
+    background-image: url(/images/sweeties\ 1.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    object-fit: contain;
+    padding: 150px;
+    border-color: #A9D378;
+}
+
+a{
+    color: #F5F5F5;
+}
