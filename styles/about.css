@@ -20,9 +20,16 @@
     background-repeat:no-repeat ;
     object-fit: contain;
     padding: 150px;
+    border: solid;
     border-color: #A9D378;
 }
 
 a{
     color: #F5F5F5;
+}
+
+.first-p {
+    display: flex;
+    justify-content: flex-start;
+
 }
