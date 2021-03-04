@@ -22,11 +22,10 @@
       <nav>
         <div class="topnav">
           <a class="active" href="#catering">CATERING</a>
-          <a href="#meny">MENY</a>
-          <a href="#kontakt">KONTAKTA OSS</a>
-          <a href="#historia">VÅR HISTORIA</a>
+          <a href="/index.html">MENY</a>
+          <a href="/form.html">BESTÄLL ONLINE/KONTAKTA OSS</a>
+          <a href="/about.html">VÅR HISTORIA</a>
           <a href="aktuellt">AKTUELLT</a>
-          <a href="bestall">BESTÄLL ONLINE</a>
         </div>
       </nav>
     </div>
@@ -52,7 +51,46 @@
     </section>
 
     <section>
-      <p></p>
+      <div class="footer-header">
+        <h2 class="heading-text">
+          Låter detta som något för dig? Kontakta oss för jobbmöjligheter!
+        </h2>
+      </div>
+      <div class="form-structure">
+        <form action="submit" method="post">
+          <div class="input-name-mail">
+            <input
+              class="input-field font-input"
+              input
+              type="fname"
+              placeholder="Namn"
+              id="fname"
+              name="fname"
+            />
+            <input
+              class="input-field font-input"
+              input
+              type="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="input-message-container">
+            <textarea
+              class="input-field-message font-input"
+              name="meddelande"
+              id="meddelande"
+              placeholder="Meddelande"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+          <button class="btn font-input" type="submit" formtarget="">
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
 
     <footer></footer>
