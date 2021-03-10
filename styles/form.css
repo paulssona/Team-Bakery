@@ -1,6 +1,28 @@
 /* This is the form-page CSS. It could either be used as a stand alone page 
 or as a card within another page */
 
+.topnav {
+    background-color: #443836;
+    color: #F5F5F5;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-top {
+    background-image: url(/images/sweeties\ 1.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    object-fit: contain;
+    padding: 150px;
+    border: solid;
+    border-color: #A9D378;
+}
+
+a{
+    color: #F5F5F5;
+}
+
 .site-structure {
     max-width: 1440px;
     min-height: 900px;
@@ -19,16 +41,12 @@ or as a card within another page */
     max-width: 500px;
     width: 100%;
     min-height: 600px;
-    background-color:#EFEFEF;
+    background-color:#443836;
     box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
     padding: 65px;
     border-radius: 8px;
 }
-.logo {
-    display:flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-}
+
 .logo-img {
     display: flex;
     max-width: 20em;
@@ -68,7 +86,7 @@ or as a card within another page */
 .button {
     min-height: 40px;
     width: 100%;
-    background-color: #F15E24;
+    background-color: #A9D378;
     border:none;
     border-radius: 5px 5px 5px 5px;
     font-family: "Amplitude Aubi", Sans-serif;

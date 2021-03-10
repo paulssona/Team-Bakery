@@ -11,27 +11,34 @@
         <link rel="stylesheet" href="styles/form.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
     </head>
+    <div class="img-top">
+        <nav>
+          <div class="topnav">
+            <a href="/form.html">CATERING</a>
+            <a href="/index.html">MENY</a>
+            <a class="active" href="/form.html">BESTÄLL ONLINE/KONTAKTA OSS</a>
+            <a href="/about.html">VÅR HISTORIA</a>
+            <a href="aktuellt">AKTUELLT</a>
+          </div>
+        </nav>
+      </div>
     <div class="site-structure"> 
         <div class="form-base-layer">
-            <div class="logo"><img class="logo-img" src="images/" alt="logo"></div>
             <form action="" method="post" class="form-input-fields">
-                <h2 class="heading-text">Contact Safeture</h2>
-                <label class="label" for="fname">First name</label>
+                <h2 class="heading-text">Beställningsformulär</h2>
+                <label class="label" for="fname">Förnamn</label>
                 <input class="input-field" type="fname" placeholder="" id="fname" name="fname">
-                <label class="label" for="lname">Surname</label>
+                <label class="label" for="lname">Efternamn</label>
                 <input class="input-field" type="lname" id="lname" name="lname">
                 <label class="label" for="email" >Email</label>
-                <input class="input-field" type="email" id="email" placeholder="name@enterprise.com" required>
-                <label class="label" for="select">Area of interest</label>
+                <input class="input-field" type="email" id="email" required>
+                <label class="label" for="select">Vad kan vi hjälpa dig med?</label>
                 <select class="select input-field" name="solution" id="select">
-                    <option value="feature" selected>New Feature</option>
-                    <option value="software">Software solution</option>
-                    <option value="everything">Everything</option>
+                    <option value="feature" selected>Jag vill beställa en tårta/annat från ert sortiment!</option>
+                    <option value="software">Jag vill göra en specialbeställning!</option>
+                    <option value="everything">Annat</option>
                 </select>
-                <label class="label" for="password">Password</label>
-                <input class="input-field" type="password" placeholder="8 char. min." minlength="8" id="password" required>
-                <input class="input-field" type="password" placeholder="Confirm Password" id="confirm_password" required>
-                <button class= "button" type="submit" formtarget="">Submit</button>
+                <button class= "button" type="submit" formtarget="">Skicka</button>
             </form>    
         </div>
     </div>

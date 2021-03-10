@@ -33,3 +33,33 @@ a{
     justify-content: flex-start;
 
 }
+
+form {
+    flex-direction: column;
+    padding: 80px;
+    height: 100%;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#button {
+    border-radius: 999px;
+    background-color: #A9D378;;
+    color: #FFFF;
+    padding: 20px 40px;
+    border: none;
+    margin: 12px;
+    align-self: center;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
