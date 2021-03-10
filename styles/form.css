@@ -122,8 +122,13 @@ h3 {
     display: flex;
     justify-content: center;
     color: rgba(255,255,255,.4);
+    padding: 12px 12px 12px 120px;
 }
 
 .footer-info {
     justify-content: center;
+}
+
+.galleri {
+    display: flex;
 }
