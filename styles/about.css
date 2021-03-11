@@ -67,8 +67,6 @@ label {
     max-width: 790px;
     width: 100%;
     margin:0 20px;
-    background-color: #A9D378;
-    border: 6px solid #D5B027;
 }
 .input-name-mail {
     display:flex;
